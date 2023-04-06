@@ -1,0 +1,252 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Gilroy-Regular', sans-serif;
+}
+header {
+	background-color: #fff;
+}
+.top-nav {
+	width: 1200px;
+	margin: auto;
+	padding: 20px 0 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.title {
+	background-image: url('img/Mask Group1.png');
+	background-size: cover;
+}
+.title-text {
+	width: 780px;
+	margin: auto;
+	padding: 50px;
+	color: #fff;
+	text-align: center;
+}
+.title-text > h1 {
+	font-size: 44px;
+}
+.title-text > p {
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.4);
+}
+.searching {
+	width: 940px;
+	height: 55px;
+	margin: 20px auto;
+	display: flex;
+	background-color: #F4F4F4;
+}
+.searching > img {
+	width: 24px;
+	height: 24px;
+	margin: 12px 15px 0 15px;
+}
+.searching > p {
+	font-size: 16px;
+	color: #1F3F68;
+	opacity: 0.6;
+}
+article {
+	width: 940px;
+	margin: 80px auto;
+}
+article > h2 {
+	font-size: 20px;
+	color: #356EAD;
+}
+.long-block {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.long-text {
+	width: 380px;
+	margin-top: -50px;
+}
+.long-text > h3 {
+	font-size: 48px;
+	color: #1F3F68;
+}
+.long-text > p {
+	font-size: 16px;
+	opacity: 0.6;
+}
+.long-image {
+	width: 540px;
+}
+.long-image > img {
+	width: 100%;
+	display: block;
+}
+.long-text-2 {
+	width: 300px;
+	margin-top: 90px;
+	font-size: 14px;
+	color: #1F3F68;
+	display: flex;
+	justify-content: space-between;
+}
+.long-text-2 > div > p {
+	opacity: 0.4;
+}
+.long-text-2 > div > img {
+	margin: 12px 10px 0 0;
+}
+section {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.section-block {
+	width: 300px;
+}
+.section-block > .long-text-2 {
+	margin-top: 0;
+}
+.section-block > b {
+	font-size: 25px;
+	color: #1F3F68;
+}
+.section-block > p {
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.see-all {
+	margin-top: 50px;
+	text-align: end;
+	color: #356EAD;
+	font-size: 16px;
+}
+article > hr {
+	margin-top: 30px;
+}
+.article-2 > h2 {
+	margin-top: 50px;
+	font-size: 20px;
+	color: #356EAD;
+}
+.section-2-block {
+	width: 860px;
+	margin: 20px 0 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.section-2-img {
+	width: 300px;
+}
+.section-2-text {
+	width: 540px;
+}
+.section-2-text > .long-text-2 {
+	margin-top: 55px;
+}
+.section-2-text > b {
+	font-size: 24px;
+	color: #1F3F68;
+}
+.section-2-text > p {
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.arrows {
+	width: 940px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.arrows > div {
+	font-size: 16px;
+	color: #356EAD;
+	cursor: pointer;
+}
+.arrows > div > img {
+	margin: 10px 10px 0 10px;
+}
+.section-end {
+	margin: 100px 150px 0 0;
+	background-color: #316099;
+	border-top-right-radius: 250px;
+	color: #fff;
+}
+.end-block {
+	width: 860px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.article-3 {
+	width: 460px;
+	margin-top: 100px;
+}
+.article-3 > h1 {
+	width: 350px;
+	font-size: 36px;
+}
+.article-3 > p {
+	font-size: 16px;
+	opacity: 0.6;
+}
+.end-block-button {
+	width: 220px;
+	height: 55px;
+	margin-top: 200px;
+	padding-top: 15px;
+	background-color: #5A98D0;
+	text-align: center;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.section-end > hr {
+	margin: 100px 420px 50px 0;
+	opacity: 0.6;
+}
+footer {
+	width: 860px;
+	margin: 80px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-title-1 {
+	display: flex;
+}
+.footer-title-1 > b {
+	font-size: 28px;
+}
+.footer-title-1 > img {
+	display: block;
+	margin: -7px 15px 0 0;
+}
+.footer-block-1 > ul {
+	margin: 30px 0 0 -20px;
+	list-style: upper-alpha;
+}
+.footer-block-1 > ul > li {
+	width: 300px;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+.footer-block-2 > h3 {
+	font-size: 20px;
+}
+.footer-block-2 > ul {
+	margin-left: -40px;
+	list-style: none;
+}
+.footer-block-2 > ul > li {
+	margin-bottom: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.copyright {
+	width: 300px;
+	text-align: center;
+	font-size: 16px;
+	margin-left: 400px;
+	padding-bottom: 50px;
+	opacity: 0.5;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
